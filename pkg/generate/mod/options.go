@@ -21,7 +21,7 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect"
 )
 
 // Option allows for customization of the generator using the

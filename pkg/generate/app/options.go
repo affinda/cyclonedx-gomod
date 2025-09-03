@@ -20,7 +20,7 @@ package app
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect"
 )
 
 type Option func(g *generator) error

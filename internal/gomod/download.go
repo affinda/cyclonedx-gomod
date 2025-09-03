@@ -25,7 +25,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
+	"github.com/affinda/cyclonedx-gomod/internal/gocmd"
 )
 
 // See https://golang.org/ref/mod#go-mod-download

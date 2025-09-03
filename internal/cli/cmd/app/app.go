@@ -24,11 +24,11 @@ import (
 
 	"github.com/peterbourgon/ff/v3/ffcli"
 
-	cliUtil "github.com/CycloneDX/cyclonedx-gomod/internal/cli/util"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/generate/app"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect/local"
+	cliUtil "github.com/affinda/cyclonedx-gomod/internal/cli/util"
+	"github.com/affinda/cyclonedx-gomod/internal/sbom"
+	"github.com/affinda/cyclonedx-gomod/pkg/generate/app"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect/local"
 )
 
 func New() *ffcli.Command {

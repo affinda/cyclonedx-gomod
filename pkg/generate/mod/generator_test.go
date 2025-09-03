@@ -27,8 +27,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/testutil"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect/local"
+	"github.com/affinda/cyclonedx-gomod/internal/testutil"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect/local"
 )
 
 func TestNewGenerator(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"debug/buildinfo"
 	"fmt"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
+	"github.com/affinda/cyclonedx-gomod/internal/gocmd"
 )
 
 // BuildInfo represents the build information read from a Go binary.

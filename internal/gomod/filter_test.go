@@ -28,8 +28,8 @@ import (
 func TestParseModWhy(t *testing.T) {
 	modWhyOutput := `
 # github.com/stretchr/testify
-github.com/CycloneDX/cyclonedx-gomod
-github.com/CycloneDX/cyclonedx-gomod.test
+github.com/affinda/cyclonedx-gomod
+github.com/affinda/cyclonedx-gomod.test
 github.com/stretchr/testify/assert
 
 # github.com/CycloneDX/cyclonedx-go

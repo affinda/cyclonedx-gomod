@@ -25,7 +25,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect/local"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect/local"
 )
 
 func TestWithComponentType(t *testing.T) {

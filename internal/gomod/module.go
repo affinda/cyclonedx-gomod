@@ -31,8 +31,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/util"
+	"github.com/affinda/cyclonedx-gomod/internal/gocmd"
+	"github.com/affinda/cyclonedx-gomod/internal/util"
 )
 
 // See https://golang.org/ref/mod#go-list-m

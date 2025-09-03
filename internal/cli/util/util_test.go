@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/CycloneDX/cyclonedx-go"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/cli/options"
+	"github.com/affinda/cyclonedx-gomod/internal/cli/options"
 	"github.com/stretchr/testify/require"
 )
 

@@ -27,9 +27,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/cli/options"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/util"
+	"github.com/affinda/cyclonedx-gomod/internal/cli/options"
+	"github.com/affinda/cyclonedx-gomod/internal/sbom"
+	"github.com/affinda/cyclonedx-gomod/internal/util"
 )
 
 func AddCommonMetadata(logger zerolog.Logger, bom *cdx.BOM) error {

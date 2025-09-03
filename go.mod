@@ -1,4 +1,4 @@
-module github.com/CycloneDX/cyclonedx-gomod
+module github.com/affinda/cyclonedx-gomod
 
 go 1.23.1
 

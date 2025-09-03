@@ -26,9 +26,9 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"github.com/rs/zerolog"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	pkgConv "github.com/CycloneDX/cyclonedx-gomod/internal/sbom/convert/pkg"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/affinda/cyclonedx-gomod/internal/gomod"
+	pkgConv "github.com/affinda/cyclonedx-gomod/internal/sbom/convert/pkg"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect"
 )
 
 type Option func(zerolog.Logger, gomod.Module, *cdx.Component) error

@@ -27,13 +27,13 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gocmd"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/sbom"
-	modConv "github.com/CycloneDX/cyclonedx-gomod/internal/sbom/convert/module"
-	pkgConv "github.com/CycloneDX/cyclonedx-gomod/internal/sbom/convert/pkg"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/generate"
-	"github.com/CycloneDX/cyclonedx-gomod/pkg/licensedetect"
+	"github.com/affinda/cyclonedx-gomod/internal/gocmd"
+	"github.com/affinda/cyclonedx-gomod/internal/gomod"
+	"github.com/affinda/cyclonedx-gomod/internal/sbom"
+	modConv "github.com/affinda/cyclonedx-gomod/internal/sbom/convert/module"
+	pkgConv "github.com/affinda/cyclonedx-gomod/internal/sbom/convert/pkg"
+	"github.com/affinda/cyclonedx-gomod/pkg/generate"
+	"github.com/affinda/cyclonedx-gomod/pkg/licensedetect"
 )
 
 type generator struct {

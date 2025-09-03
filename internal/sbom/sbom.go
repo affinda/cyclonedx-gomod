@@ -34,8 +34,8 @@ import (
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/CycloneDX/cyclonedx-gomod/internal/gomod"
-	"github.com/CycloneDX/cyclonedx-gomod/internal/version"
+	"github.com/affinda/cyclonedx-gomod/internal/gomod"
+	"github.com/affinda/cyclonedx-gomod/internal/version"
 )
 
 func AssertLicenses(bom *cdx.BOM) {
@@ -124,7 +124,7 @@ func BuildToolMetadata(logger zerolog.Logger) (*cdx.Tool, error) { //nolint:stat
 		ExternalReferences: &[]cdx.ExternalReference{
 			{
 				Type: cdx.ERTypeVCS,
-				URL:  "https://github.com/CycloneDX/cyclonedx-gomod",
+				URL:  "https://github.com/affinda/cyclonedx-gomod",
 			},
 			{
 				Type: cdx.ERTypeWebsite,
